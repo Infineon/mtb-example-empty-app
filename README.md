@@ -6,7 +6,7 @@ For instructions on modifying and using this application template to create appl
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-empty-app)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMjg3NDIiLCJTcGVjIE51bWJlciI6IjAwMi0yODc0MiIsIkRvYyBUaXRsZSI6IkVtcHR5IGFwcGxpY2F0aW9uIHRlbXBsYXRlIiwicmlkIjoia2hhdHJpbmF2aW5rIiwiRG9jIHZlcnNpb24iOiI0LjUuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiUFNPQyJ9)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMjg3NDIiLCJTcGVjIE51bWJlciI6IjAwMi0yODc0MiIsIkRvYyBUaXRsZSI6IkVtcHR5IGFwcGxpY2F0aW9uIHRlbXBsYXRlIiwicmlkIjoia2hhdHJpbmF2aW5rIiwiRG9jIHZlcnNpb24iOiI0LjYuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiUFNPQyJ9)
 
 ## Requirements
 
@@ -44,8 +44,9 @@ For instructions on modifying and using this application template to create appl
 - [PSoC&trade; 62S2 Evaluation Kit](https://www.infineon.com/CY8CEVAL-062S2) (`CY8CEVAL-062S2`, `CY8CEVAL-062S2-LAI-4373M2`, `CY8CEVAL-062S2-MUR-43439M2`, `CY8CEVAL-062S2-LAI-43439M2`, `CY8CEVAL-062S2-MUR-4373EM2`, `CY8CEVAL-062S2-MUR-4373M2` )
 - [PSoC&trade; 64 "Secure Boot" Prototyping Kit](https://www.infineon.com/CY8CPROTO-064B0S3) (`CY8CPROTO-064B0S3`)
 - [PSoC&trade; 64 "Secure Boot" Prototyping Kit](https://www.infineon.com/CY8CPROTO-064S1-SB) (`CY8CPROTO-064S1-SB`)
-- [XMC7200 Evaluation Kit](https://www.infineon.com/KIT_XMC72_EVK) (`KIT_XMC72_EVK`)
+- [XMC7200 Evaluation Kit](https://www.infineon.com/KIT_XMC72_EVK) (`KIT_XMC72_EVK`, `KIT_XMC72_EVK_MUR_43439M2`)
 - AIROC&trade; CYW89829 Bluetooth&reg; LE Evaluation Board(`CYW989829M2EVB-01`)
+- [XMC7100 Evaluation Kit](https://www.infineon.com/KIT_XMC71_EVK_LITE_V1) (`KIT_XMC71_EVK_LITE_V1`)
 
 ## Hardware setup
 
@@ -92,7 +93,8 @@ Document title: *CE228742* – *Empty application template*
  4.3.0   | Removed CYW920829M2EVB-01 from supported ktis <br> Added support for CY8CPROTO-062S2-43439, CYBLE-416045-EVAL and CYW920829M2EVK-02
  4.4.0   | Added support for CY8CEVAL-062S2-MUR-4373EM2, CY8CEVAL-062S2-MUR-4373M2
  4.4.1   | Readme Update
- 4.5.0   | Added support for CYW989829M2EVB-01 and updated to support ModusToolbox&trade; v3.1.
+ 4.5.0   | Added support for CYW989829M2EVB-01 and updated to support ModusToolbox&trade; v3.1
+ 4.6.0   | Added support for KIT_XMC72_EVK_MUR_43439M2 and KIT_XMC71_EVK_LITE_V1.
 <br>
 
 ---------------------------------------------------------
