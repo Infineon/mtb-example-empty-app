@@ -6,11 +6,11 @@ For instructions on modifying and using this application template to create appl
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-empty-app)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMjg3NDIiLCJTcGVjIE51bWJlciI6IjAwMi0yODc0MiIsIkRvYyBUaXRsZSI6IkVtcHR5IGFwcGxpY2F0aW9uIHRlbXBsYXRlIiwicmlkIjoicGF0aGlzdWRoYXJzIiwiRG9jIHZlcnNpb24iOiI0LjkuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiUFNPQyJ9)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMjg3NDIiLCJTcGVjIE51bWJlciI6IjAwMi0yODc0MiIsIkRvYyBUaXRsZSI6IkVtcHR5IGFwcGxpY2F0aW9uIHRlbXBsYXRlIiwicmlkIjoicGF0aGlzdWRoYXJzIiwiRG9jIHZlcnNpb24iOiI0LjkuMSIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiUFNPQyJ9)
 
 ## Requirements
 
-- [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.1 or later (tested with v3.1)
+- [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.2 or later (tested with v3.2)
 - Board support package (BSP) minimum required version for :
    - PSoC&trade; 6 MCU: v4.0.0
    - KIT_XMC72_EVK: v1.0.0
@@ -48,6 +48,7 @@ For instructions on modifying and using this application template to create appl
 - AIROC&trade; CYW89829 Bluetooth&reg; LE Evaluation Board(`CYW989829M2EVB-01`)
 - [XMC7100 Evaluation Kit](https://www.infineon.com/KIT_XMC71_EVK_LITE_V1) (`KIT_XMC71_EVK_LITE_V1`)
 - [PSoC&trade; 6 AI Evaluation Kit](https://www.infineon.com/CY8CKIT-062S2-AI) (`CY8CKIT-062S2-AI`)
+- [Traveo&trade; T2G Cluster 6M Evaluation Kit](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g_c-2d-6m_lite/) (`KIT_T2G_C-2D-6M_LITE`)
 
 ## Hardware setup
 
@@ -99,6 +100,7 @@ Document title: *CE228742* – *Empty application template*
  4.7.0   | Added support for CY8CEVAL-062S2-CYW43022CUB
  4.8.0   | Added support for CY8CKIT-062S2-AI
  4.9.0   | Added support for CY8CEVAL-062S2-CYW955513SDM2WLIPA
+ 4.9.1   | Added support for devices not supported by HAL, added support for KIT_T2G_C-2D-6M_LITE
 <br>
 
 ---------------------------------------------------------

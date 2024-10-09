@@ -43,7 +43,9 @@
 /*******************************************************************************
 * Header Files
 *******************************************************************************/
+#if defined (CY_USING_HAL)
 #include "cyhal.h"
+#endif
 #include "cybsp.h"
 
 /******************************************************************************
@@ -84,7 +86,7 @@ int main(void)
 {
     cy_rslt_t result;
 
-#if defined (CY_DEVICE_SECURE)
+#if defined (CY_DEVICE_SECURE) && defined (CY_USING_HAL)
     cyhal_wdt_t wdt_obj;
 
     /* Clear watchdog timer so that it doesn't trigger a reset */
