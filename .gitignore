@@ -27,6 +27,9 @@ Debug/
 Release/
 *_build/
 
+# Ninja build artefacts
+.ninja_*
+
 # Eclipse IDE for ModusToolbox files. Comment those files if you want to track them
 .metadata/
 .settings/
